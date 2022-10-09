@@ -62,7 +62,7 @@ text-decoration: none;
  .logreg{
  	list-style-type: none;
  	display: inline-block;
- 	
+ 	visibility: hidden;
 	font-family: 'BebasNeue Regular';
 	font-size: 9pt;
 	color: #E7E7E7;
