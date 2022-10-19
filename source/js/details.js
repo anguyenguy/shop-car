@@ -19,7 +19,7 @@ $.each(data, function(i, value) {
                         `);
                 }
                 items.push( `<div class="center">
-                        <a class="btn btn-default" href="https://zalo.me/0968024501">Mua ngay</a>
+                        <a class="btn btn-default" href="tel:0968024501">Mua ngay</a>
                         </div>
                         `);
         }
