@@ -22,6 +22,17 @@ var data = [
 		Nội thất còn mới
 		Bao đâm đụng, ngập nước`
 	}, 
+	{
+		index: 3,
+		main_image: 18,
+		total_image: 19,
+		car_name: "Honda Civic",
+		year_created: 2009,
+		price: "265.000.000",
+		text:`Chỉ hơn 200 triệu là sở hữu được ngay con xe gia đình 5 chỗ hạng C rộng rãi from dáng đẹp 
+		Honda Civic 2009 MT số sàn from mới
+		Odo cực ít 62.000km 1 chủ từ đầu.xe đẹp bao lỗi.nội thất còn zin . Bao đâm đụng ngập nước`
+	}, 
 
 
 ]

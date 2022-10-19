@@ -4,7 +4,7 @@ import os
 # old_name = "test.txt"
 # new_name = "text.txt"
 
-path = "image/cars/car_2/"
+path = "image/cars/car_3/"
 dir_list = os.listdir(path)
 
 index = 0
