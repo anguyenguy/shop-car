@@ -5,20 +5,26 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 let index = params.index; 
 
 
-var folder = `image/cars/car_${index}`
+var folder = `./image/cars/car_${index}`
+var items = [];
 
 $.each(data, function(i, value) {
 	if(index==value.index){
-                $.ajax({
-                        url : folder,
-                        success: function (data) {
-                            $(data).find("a").attr("href", function (i, val) {
-                                console.log(val)
-                                if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-                                    $("main").prepend( "<img src='"+ folder + val +"'>" );
-                                } 
-                            });
-                        }
-                    });
+                items.push( `
+                        <p class"text">${value.text}.</p>
+                        `);
+                for(let i=1; i<=value.total_image; i++){
+                        items.push( `
+                        <img src="./image/cars/car_${value.index}/${i}.jpg" alt="Car ${value.index}">
+                        `);
+                }
+                items.push( `<div class="center">
+                        <a class="btn btn-default" href="https://zalo.me/0968024501">Mua ngay</a>
+                        </div>
+                        `);
         }
+});
+
+$.each(items, function(index, value) {
+	$(".main").append(value);
 });

@@ -1,0 +1,30 @@
+img{
+        padding-top: 20px;
+        width: 80%;
+}
+
+.main{
+        margin: 0 auto;
+        text-align: center;
+}
+
+.btn{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+}
+
+.center{
+        padding: 100px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+p {
+        font-size: 20px;
+}

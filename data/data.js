@@ -1,6 +1,8 @@
 var data = [
 	{
 		index: 1,
+		main_image: 8,
+		total_image: 8,
 		car_name: "Matiz",
 		year_created: 2002,
 		price: "85.000.000",
@@ -10,6 +12,8 @@ var data = [
 	}, 
 	{
 		index: 2,
+		main_image: 23,
+		total_image: 23,
 		car_name: "Honda city 1.5 CVT",
 		year_created: 2017,
 		price: "415.000.000",
