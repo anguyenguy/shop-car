@@ -62,6 +62,20 @@ var data = [
 		Giá bán nhanh 175tr bao rút hồ sơ gốc`,
 		sold: false
 	}, 
+	{
+		index: 6,
+		main_image: 6,
+		total_image: 10,
+		car_name: "Chevrolet Aveo",
+		year_created: 2015,
+		price: "225.000.000",
+		text:`Xe 5 chỗ chuẩn chất gia đình hơn 200 tý ạ 
+		Chevrolet Aveo 2015 số sàn xe cực đẹp 
+		Odo 11 vạn . Máy móc hộp số nguyên bản
+		Keo chỉ zin .bao đâm đụng ngập nước
+		Giá bán: 225 triệu-còn thương lượng.bao hồ sơ`,
+		sold: false
+	}, 
 
 
 
