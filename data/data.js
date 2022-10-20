@@ -49,6 +49,20 @@ var data = [
 		Bao test thoải mái ạ`,
 		sold: false
 	}, 
+	{
+		index: 5,
+		main_image: 26,
+		total_image: 28,
+		car_name: "Lacetti",
+		year_created: 2011,
+		price: "175.000.000",
+		text:`Khung gầm nguyên bản keo chỉ nguyên zin 
+		Máy móc hộp số nguyên bản êm ái 
+		Nội thất sạch sẽ sang trọng
+		Giá bán nhanh 175tr bao rút hồ sơ gốc`,
+		sold: false
+	}, 
+
 
 
 
