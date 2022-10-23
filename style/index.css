@@ -176,3 +176,17 @@ button:hover{
 .btn{
 	background-color: #4649FF;
 }
+
+footer{
+	margin-top: 50px;
+	padding: 30px 0px;
+}
+
+footer a{
+	color: white;
+}
+
+.mobile-banner{
+	margin: 0;
+	padding: 0;
+}
