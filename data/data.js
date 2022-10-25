@@ -76,6 +76,16 @@ var data = [
 		Giá bán: 225 triệu-còn thương lượng.bao hồ sơ`,
 		sold: false
 	}, 
+	{
+		index: 7,
+		main_image: 3,
+		total_image: 13,
+		car_name: "Kia Morning",
+		year_created: 2005,
+		price: "155.000.000",
+		text:`Kia morning 2005 số tự động máy 1.0L. đồng sơn bóng loáng , máy móc nổ êm tai khung gầm sạch đẹp ,nội thất đẹp.được trang bị màn hình giải trí, camera đầy đủ . đẹp không lỗi gì.`,
+		sold: false
+	}, 
 
 
 

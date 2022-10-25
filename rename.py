@@ -2,7 +2,7 @@
 
 import os
 
-path = "image/cars/car_6/"
+path = "image/cars/car_7/"
 dir_list = os.listdir(path)
 
 index = 0
